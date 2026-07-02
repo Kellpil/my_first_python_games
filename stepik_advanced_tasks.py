@@ -51,3 +51,12 @@
 #                 break
 #     if pointer == 5:
 #         print(i, end=" ")
+
+# Роскомнадзор запретил букву а 🚫🌶️🌶️
+# text = f"{input()} запретил букву"
+# alphabet = 'абвгдежзийклмнопрстуфхцчшщъыьэюя'
+# for char in alphabet:
+#     if char in text:
+#         s = f"{text} {char}"
+#         print(" ".join(s.split()))
+#         text = text.replace(char, "")
