@@ -20,3 +20,20 @@
 
 # Задача 4: Различные элементы
 # print(len(set(input().split())))
+
+# Задача 6: Произведение двух чисел
+# n = int(input())
+# numbers = []
+# for _ in range(n):
+#     numbers.append(int(input()))
+# target = int(input())
+# found = False
+# for i in range(len(numbers)):
+#     for j in range(i + 1, len(numbers)):
+#         if numbers[i] * numbers[j] == target:
+#             found = True
+#             break
+# if found:
+#     print("ДА")
+# else:
+#     print("НЕТ")
