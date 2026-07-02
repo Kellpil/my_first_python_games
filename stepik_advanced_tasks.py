@@ -37,3 +37,17 @@
 #     print("ДА")
 # else:
 #     print("НЕТ")
+
+# Задача 7: Кремниевая долина (Антон)
+# n = int(input())
+# for i in range(1, n + 1):
+#     text = input()
+#     reference = "anton"
+#     pointer = 0
+#     for char in text:
+#         if char == reference[pointer]:
+#             pointer += 1
+#             if pointer == 5:
+#                 break
+#     if pointer == 5:
+#         print(i, end=" ")
