@@ -42,4 +42,7 @@
 # for row in matrix:
 #     print(*row)
 
-
+# Задача 5: Максимальный в области 1
+# n = int(input())
+# matrix = [[int(x) for x in input().split()] for _ in range(n)]
+# print(max([matrix[i][j] for i in range(n) for j in range(i + 1)]))
