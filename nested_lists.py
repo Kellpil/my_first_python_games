@@ -46,3 +46,23 @@
 # n = int(input())
 # matrix = [[int(x) for x in input().split()] for _ in range(n)]
 # print(max([matrix[i][j] for i in range(n) for j in range(i + 1)]))
+
+# Задача 6: Суммы четвертей
+# n = int(input())
+# matrix = [[int(x) for x in input().split()] for _ in range(n)]
+# total1, total2, total3, total4 = [], [], [], []
+
+# for i in range(n):
+#     for j in range(n): 
+#         if j > i and j < n - i - 1:
+#             total1.append(matrix[i][j])
+#         elif j > i and j > n - i - 1:
+#             total2.append(matrix[i][j])
+#         elif j < i and j > n - i - 1:
+#             total3.append(matrix[i][j])
+#         elif j < i and j < n - i - 1:
+#             total4.append(matrix[i][j])
+# print(f"Верхняя четверть: {sum(total1)}")
+# print(f"Правая четверть: {sum(total2)}")
+# print(f"Нижняя четверть: {sum(total3)}")
+# print(f"Левая четверть: {sum(total4)}")
