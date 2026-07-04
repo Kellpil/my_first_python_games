@@ -13,4 +13,5 @@
 #         row = next_row
 #     return row
 # n = int(input())
-# print(pascal(n))
+# for i in range(n):
+#     print(*pascal(i))
