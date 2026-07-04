@@ -15,3 +15,23 @@
 # n = int(input())
 # for i in range(n):
 #     print(*pascal(i))
+
+# Задача 3: Разбиение на чанки 🌶️
+# def chunked(text, num):
+#     chars = []
+#     char = []  
+#     text_list = text.split()  
+#     for i in range(len(text_list)):
+#         if len(char) < num:
+#             char.append(text_list[i])
+#         else:
+#             chars.append(char)
+#             char = [text_list[i]]  
+#     if char:
+#         chars.append(char)
+    
+#     return chars
+
+# text = input()
+# num = int(input())
+# print(chunked(text, num))
