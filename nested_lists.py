@@ -35,3 +35,11 @@
 # text = input()
 # num = int(input())
 # print(chunked(text, num))
+
+# Задача 4: Вывести матрицу 1
+# n, m = int(input()), int(input())
+# matrix = [[input() for _ in range(m)] for _ in range(n)]
+# for row in matrix:
+#     print(*row)
+
+
