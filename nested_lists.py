@@ -66,3 +66,38 @@
 # print(f"Правая четверть: {sum(total2)}")
 # print(f"Нижняя четверть: {sum(total3)}")
 # print(f"Левая четверть: {sum(total4)}")
+
+# Задача 7: Магический квадрат ✨🌶️
+# n = int(input())
+# matrix = [[int(x) for x in input().split()] for _ in range(n)]
+
+# flat = [num for row in matrix for num in row]
+# flat.sort()
+
+# etalon = list(range(1, n ** 2))
+
+# if flat != etalon:
+#     print("NO")
+# else:
+#     magic_sum = sum(matrix[0])
+#     is_magic = True
+    
+#     for i in range(n):
+#         row_sum = sum(matrix[i])
+#         col_sum = sum([matrix[j][i] for j in range(n)])
+        
+#         if row_sum != magic_sum or col_sum != magic_sum:
+#             is_magic = False
+#             break
+            
+#     if is_magic:
+#         main_diag = [matrix[i][i] for i in range(n)]
+#         side_diag = [matrix[i][n - i - 1] for i in range(n)]
+        
+#         if main_diag != magic_sum or side_diag != magic_sum:
+#             is_magic = False
+        
+#     if is_magic:
+#         print("YES")
+#     else:
+#         print("NO")
