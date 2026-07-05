@@ -74,7 +74,7 @@
 # flat = [num for row in matrix for num in row]
 # flat.sort()
 
-# etalon = list(range(1, n ** 2))
+# etalon = list(range(1, n ** 2 + 1))
 
 # if flat != etalon:
 #     print("NO")
@@ -91,8 +91,8 @@
 #             break
             
 #     if is_magic:
-#         main_diag = [matrix[i][i] for i in range(n)]
-#         side_diag = [matrix[i][n - i - 1] for i in range(n)]
+#         main_diag = sum([matrix[i][i] for i in range(n)])
+#         side_diag = sum([matrix[i][n - i - 1] for i in range(n)])
         
 #         if main_diag != magic_sum or side_diag != magic_sum:
 #             is_magic = False
